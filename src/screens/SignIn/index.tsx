@@ -10,7 +10,7 @@ import { styles } from './style';
 import IllustrationImg from '../../assets/illustration.png';
 import { ButtonIcon } from '../../components/Buttonicon/index';
 
-export function SingIn(){
+export function SignIn(){
   /*Criando uma constante para atualiar o estado */
 
 
