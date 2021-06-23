@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 
 //importação de itens nativos do react
-import { View, Text, Image, StatusBar } from 'react-native';
+import { View, Text, Image } from 'react-native';
 
 //importação da página de estilo
 import { styles } from './style';
@@ -18,15 +18,7 @@ export function SingIn(){
     
     <View style={styles.container}>
       
-      {/* Status bar é a parte superiror
-      onde fica os status do seu telefone
-      nesse componente conseguimos ajustar 
-      para ficar visualmente mais trativo */}
-      <StatusBar
-      barStyle="light-content"
-      backgroundColor="transparent"
-      translucent
-      />
+     
       
       {/* Imagem do aplicativo */}
       <Image 
@@ -36,9 +28,9 @@ export function SingIn(){
       />
       <View style={styles.content}>
         <Text style={styles.title}>
-          Organize{`\n`}
-          suas jogatinas{`\n`}
-          facilmente{`\n`}
+          Conecte-se{`\n`}
+          e organize suas{`\n`}
+          jogatinas
         </Text>
         <Text style={styles.subtitle}>
           Crie grupos para jogar seus games{`\n`}
