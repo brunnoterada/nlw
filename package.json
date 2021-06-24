@@ -31,6 +31,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
+    "@expo/webpack-config": "^0.12.80",
+    "@hitbit/expo-svg-transformer": "^0.0.7",
     "@types/react": "~16.9.35",
     "@types/react-native": "~0.63.2",
     "react-native-svg-transformer": "^0.14.3",
