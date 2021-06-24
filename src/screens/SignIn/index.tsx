@@ -6,11 +6,23 @@ import { View, Text, Image } from 'react-native';
 //importação da página de estilo
 import { styles } from './style';
 
+//importação da navegação 
+import{useNavigation} from '@react-navigation/native';
+
 //importação da imagem na inicial do aplicativo
 import IllustrationImg from '../../assets/illustration.png';
 import { ButtonIcon } from '../../components/Buttonicon/index';
 
+
+
+
 export function SignIn(){
+  const navigation = useNavigation();
+
+
+  function handleSignIn(){
+    navigation.navigate('Home');
+  }
   /*Criando uma constante para atualiar o estado */
 
 
@@ -39,7 +51,7 @@ export function SignIn(){
         </Text>
         <ButtonIcon 
         title={'Entrar com Discoasrd'}
-        activeOpacity={0.5}
+        onPress={handleSignIn}
         />
       </View>
     </View>
