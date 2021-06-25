@@ -13,6 +13,7 @@ import{useNavigation} from '@react-navigation/native';
 import IllustrationImg from '../../assets/illustration.png';
 import { ButtonIcon } from '../../components/Buttonicon/index';
 
+import {Background} from '../../components/Background/index'
 
 
 
@@ -27,7 +28,7 @@ export function SignIn(){
 
 
   return(
-    
+    <Background>
     <View style={styles.container}>
       
      
@@ -55,5 +56,6 @@ export function SignIn(){
         />
       </View>
     </View>
+    </Background>
   );
 }
