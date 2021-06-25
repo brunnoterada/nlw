@@ -51,7 +51,7 @@ export function SignIn(){
           
         </Text>
         <ButtonIcon 
-        title={'Entrar com Discoasrd'}
+        title={'Entrar com Discord'}
         onPress={handleSignIn}
         />
       </View>
