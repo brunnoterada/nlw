@@ -27,6 +27,7 @@ export function Header({title, action}:Props){
           size={24}
           color={heading}
         />
+        </BorderlessButton>
         <Text style={styles.title}>
           {title}
         </Text>
@@ -36,7 +37,7 @@ export function Header({title, action}:Props){
             { action }
           </View>
         }
-      </BorderlessButton>
+      
     </LinearGradient>
 
   )
