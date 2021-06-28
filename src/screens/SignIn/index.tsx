@@ -11,7 +11,7 @@ import{useNavigation} from '@react-navigation/native';
 
 //importação da imagem na inicial do aplicativo
 import IllustrationImg from '../../assets/illustration.png';
-import { ButtonIcon } from '../../components/Buttonicon/index';
+import { ButtonIcon } from '../../components/ButtonIcon/index';
 
 import {Background} from '../../components/Background/index'
 
