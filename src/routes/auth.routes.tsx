@@ -2,6 +2,8 @@ import React from "react";
 import {createStackNavigator} from'@react-navigation/stack';
 import {Home} from '../screens/Home/index';
 import { AppointmentDetails } from "../screens/AppointmentDetails/index";
+import { AppointmentCreate } from "../screens/AppointmentCreate/index";
+
 import {SignIn} from '../screens/SignIn/index';
 import { theme } from "../global/styles/theme";
 
@@ -28,6 +30,10 @@ export function AuthRoutes(){
       <Screen
       name="AppointmentDetails"
       component={AppointmentDetails}
+      />
+      <Screen
+      name="AppointmentCreate"
+      component={AppointmentCreate}
       />
     </Navigator>
   )
