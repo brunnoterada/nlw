@@ -15,7 +15,11 @@ import { styles } from './styles';
 import { ListDivider } from "../../components/ListDivider";
 import { ListHeader } from "../../components/ListHeader";
 import { Member } from "../../components/Member";
+<<<<<<< HEAD
+import { ButtonIcon } from "../../components/Buttonicon";
+=======
 import { ButtonIcon } from "../../components/ButtonIcon";
+>>>>>>> 8e1c11bd76d62e571c27b798db5ef4d45e0415d9
 
 
 export function AppointmentDetails(){

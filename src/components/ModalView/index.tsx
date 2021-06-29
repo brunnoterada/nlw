@@ -19,10 +19,20 @@ export function ModalView({children,...rest}: Props){
         {...rest}
         >
             <View style={styles.overlay}>
+<<<<<<< HEAD
+                <View style={styles.container}>
+                    <Background>
+                        <View style={styles.bar}/>
+                     {children}
+                    
+                    </Background>
+                </View>
+=======
                 <Background>
                     <View style={styles.bar}/>
                     {children}
                 </Background>
+>>>>>>> 8e1c11bd76d62e571c27b798db5ef4d45e0415d9
             </View>
         </Modal>
     )
